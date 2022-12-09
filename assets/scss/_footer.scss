@@ -9,6 +9,10 @@
   @media only screen and (max-width: 767px) {
    padding: 60px 0px;
   }
+  @media only screen and (max-width: 482px) {
+   padding-top: 80px;
+   padding-bottom: 30px;
+  }
   .footer-flex{
     display: flex;
     align-items: flex-end;
@@ -32,11 +36,17 @@
       font-size: 14px;
       color: #C6C6C6;
       font-weight: 600;
+      @media only screen and (max-width: 482px) {
+       font-weight: 400;
+      }
     }
   }
   .footer-social{
     @media only screen and (max-width: 767px) {
      padding-top: 28px;
+    }
+    @media only screen and (max-width: 482px) {
+     padding-top: 30px;
     }
     a{
       &:not(:last-child) {
