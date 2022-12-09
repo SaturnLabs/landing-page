@@ -780,6 +780,31 @@ h6 a {
     padding: 20px 20px 20px 20px;
   }
 }
+@media only screen and (max-width: 482px) {
+  .service-single .title-flx {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+  }
+}
+.service-single .title-flx .mer-logo {
+  display: none;
+}
+@media only screen and (max-width: 482px) {
+  .service-single .title-flx .mer-logo {
+    display: block;
+    height: 60px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
 .service-single h4 {
   background: linear-gradient(271.43deg, #ffffff -10.14%, #ffd08a 152.86%);
   -webkit-background-clip: text;
@@ -796,12 +821,22 @@ h6 a {
     margin: 15px 0px;
   }
 }
+@media only screen and (max-width: 482px) {
+  .service-single h4 {
+    font-size: 23px;
+  }
+}
 .service-single .ser-logo {
   max-height: 130px;
 }
 @media only screen and (max-width: 767px) {
   .service-single .ser-logo {
     max-height: 100px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .service-single .ser-logo {
+    display: none;
   }
 }
 .service-single p {

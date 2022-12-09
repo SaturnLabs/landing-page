@@ -24,6 +24,24 @@
 	@media only screen and (max-width: 767px) {
 		padding: 20px 20px 20px 20px;
 	}
+
+  .title-flx{
+    @media only screen and (max-width: 482px) {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 10px;
+    }
+    .mer-logo{
+      display: none;
+    @media only screen and (max-width: 482px) {
+      display: block;
+      height: 60px;
+      object-fit: contain;
+    }
+    }
+  }
+
 	h4 {
 		background: linear-gradient(
 			271.43deg,
@@ -41,12 +59,18 @@
 			font-size: 25px;
 			margin: 15px 0px;
 		}
+    @media only screen and (max-width: 482px) {
+     font-size: 23px;
+    }
 	}
 	.ser-logo {
 		max-height: 130px;
 		@media only screen and (max-width: 767px) {
 			max-height: 100px;
 		}
+    @media only screen and (max-width: 482px) {
+     display: none;
+    }
 	}
 	p {
 		font-size: 16px;
