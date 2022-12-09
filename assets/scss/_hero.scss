@@ -1,0 +1,174 @@
+/*--------------------------------------------------------------
+# hero-area
+--------------------------------------------------------------*/
+.hero-area {
+	background: linear-gradient(
+			189.07deg,
+			rgba(0, 54, 244, 0.2) 2.69%,
+			rgba(19, 31, 64, 0) 37.38%
+		),
+		linear-gradient(180deg, rgba(14, 29, 64, 0) 28.55%, #010101 90.81%),
+		linear-gradient(37.57deg, #031542 50.63%, rgba(3, 21, 66, 0) 107.09%),
+		radial-gradient(
+				20.12% 26.25% at 41.83% 42.12%,
+				rgba(17, 29, 67, 0.3) 0%,
+				rgba(204, 142, 74, 0.3) 100%,
+				rgba(204, 142, 74, 0.3) 100%
+			)
+			/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+	padding-top: 180px;
+	padding-bottom: 180px;
+	@media only screen and (max-width: 991px) {
+		text-align: center;
+		padding-top: 140px;
+		padding-bottom: 130px;
+	}
+	@media only screen and (max-width: 767px) {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.hero-text {
+		h1 {
+			font-size: 44px;
+			font-weight: 700;
+			background: linear-gradient(
+				87.65deg,
+				#7198ff -8.44%,
+				#b7e4e7 97.32%
+			);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			margin-bottom: 10px;
+			@media only screen and (max-width: 1199px) {
+				font-size: 38px;
+			}
+			@media only screen and (max-width: 767px) {
+				font-size: 33px;
+				margin-bottom: 18px;
+			}
+		}
+		p {
+			font-size: 17px;
+			font-weight: 500;
+			color: #fff;
+			max-width: 450px;
+			margin-bottom: 20px;
+			@media only screen and (max-width: 991px) {
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			@media only screen and (max-width: 767px) {
+				font-size: 16px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	.hero-img {
+		img {
+			width: 100%;
+			height: auto;
+			max-width: 330px;
+		}
+	}
+}
+
+.hero-btns {
+	display: flex;
+	margin-left: -8px;
+	margin-right: -8px;
+	@media only screen and (max-width: 991px) {
+		justify-content: center;
+	}
+	@media only screen and (max-width: 767px) {
+		flex-direction: column;
+	}
+}
+.btn-hero {
+	margin-left: 8px;
+	margin-right: 8px;
+	display: inline-flex;
+	justify-content: center;
+	text-align: center;
+	background: linear-gradient(269.21deg, #9786ff -62.88%, #1a68ff 173.99%);
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	border-radius: 10px;
+	border: 0;
+	padding: 6px 18px;
+	min-width: 140px;
+	transition: all 0.2s ease-in;
+	&:hover {
+		box-shadow: 0 3px 20px 0px rgba(95, 167, 250, 0.52);
+		color: #fff;
+	}
+	@media only screen and (max-width: 767px) {
+		align-self: center;
+		margin-top: 16px;
+		min-width: 170px;
+	}
+}
+.btn-2 {
+	background: linear-gradient(97.68deg, #7452bd 16.12%, #1a68ff 102.09%);
+}
+
+/*--------------------------------------------------------------
+# why
+--------------------------------------------------------------*/
+.why {
+	padding-top: 40px;
+	padding-bottom: 80px;
+	@media only screen and (max-width: 991px) {
+		padding-top: 10px;
+	}
+	@media only screen and (max-width: 767px) {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 50px;
+	}
+	.container {
+		max-width: 1200px;
+	}
+
+	.why-single {
+		background-color: #1a202e;
+		padding: 44px 30px 30px 30px;
+		border-radius: 20px;
+		text-align: center;
+		height: 100%;
+		.why-img {
+			width: 100%;
+			height: 190px;
+			object-fit: contain;
+			margin-bottom: 40px;
+			@media only screen and (max-width: 1199px) {
+				height: 170px;
+			}
+			@media only screen and (max-width: 767px) {
+				height: 160px;
+				margin-bottom: 30px;
+			}
+		}
+		h4 {
+			font-size: 25px;
+			font-weight: 600;
+			margin-bottom: 22px;
+			@media only screen and (max-width: 767px) {
+				font-size: 23px;
+				margin-bottom: 18px;
+			}
+		}
+		p {
+			font-size: 16px;
+			font-weight: 500;
+			color: #c3c4c5;
+		}
+		transition: all 0.2s ease-in;
+		&:hover {
+			background-color: #0b0e14;
+			transform: translateY(-4px);
+		}
+	}
+}

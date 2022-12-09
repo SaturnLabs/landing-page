@@ -1,0 +1,148 @@
+/*--------------------------------------------------------------
+# services
+--------------------------------------------------------------*/
+
+.services {
+	padding: 80px 0px;
+	@media only screen and (max-width: 767px) {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding: 50px 0px;
+	}
+	.container {
+		max-width: 1200px;
+	}
+}
+
+.service-single {
+	&:not(:last-child) {
+		margin-bottom: 30px;
+	}
+	background-color: #181c29;
+	padding: 20px 20px 20px 30px;
+	border-radius: 30px;
+	@media only screen and (max-width: 767px) {
+		padding: 20px 20px 20px 20px;
+	}
+	h4 {
+		background: linear-gradient(
+			271.43deg,
+			#ffffff -10.14%,
+			#ffd08a 152.86%
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+		text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.21);
+		font-size: 30px;
+		font-weight: 600;
+		@media only screen and (max-width: 767px) {
+			font-size: 25px;
+			margin: 15px 0px;
+		}
+	}
+	.ser-logo {
+		max-height: 130px;
+		@media only screen and (max-width: 767px) {
+			max-height: 100px;
+		}
+	}
+	p {
+		font-size: 16px;
+		font-weight: 500;
+		color: #e2e2e2;
+		@media only screen and (max-width: 991px) {
+			max-width: 400px;
+		}
+	}
+	transition: all 0.2s ease-in;
+	&:hover {
+		background-color: #0d0f17;
+	}
+}
+
+/*--------------------------------------------------------------
+# partners
+--------------------------------------------------------------*/
+.partners {
+	padding-top: 80px;
+	padding-bottom: 160px;
+	@media only screen and (max-width: 767px) {
+		padding-top: 70px;
+		padding-bottom: 80px;
+	}
+	.container {
+		max-width: 1200px;
+	}
+}
+.p-single {
+	background-color: #181c29;
+	border-radius: 25px;
+	text-align: center;
+	padding: 40px 30px;
+	@media only screen and (max-width: 767px) {
+		padding: 30px 30px;
+	}
+	.p-logo {
+		max-height: 70px;
+		height: auto;
+		@media only screen and (max-width: 767px) {
+			max-height: 50px;
+		}
+	}
+	transition: all 0.2s ease-in;
+	&:hover {
+		background-color: #0d0f17;
+	}
+}
+
+/*--------------------------------------------------------------
+# cta
+--------------------------------------------------------------*/
+.cta {
+	background-image: url("../img/services/rect.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 250px;
+	padding-bottom: 100px;
+	@media only screen and (max-width: 767px) {
+		background-image: url("../img/services/rect-mob.png");
+		padding-top: 200px;
+		padding-bottom: 70px;
+	}
+	@media only screen and (max-width: 482px) {
+		padding-top: 170px;
+	}
+	.cta-text {
+		max-width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	h3 {
+		font-size: 32px;
+		color: #fff;
+		font-weight: 700;
+		margin-bottom: 32px;
+		@media only screen and (max-width: 767px) {
+			font-size: 27px;
+			margin-bottom: 25px;
+		}
+	}
+	.btn-contact {
+		text-decoration: none;
+		border: 0;
+		text-align: center;
+		background-color: #ed9a3f;
+		color: #000;
+		font-weight: 600;
+		font-size: 15px;
+		padding: 6px 30px;
+		border-radius: 7px;
+		transition: all 0.2s ease-in;
+		&:hover {
+			background-color: #cf802c;
+		}
+	}
+}
