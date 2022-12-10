@@ -893,6 +893,14 @@ h6 a {
     max-height: 50px;
   }
 }
+.p-single .p-logo.tosi-logo {
+  max-height: 60px;
+}
+@media only screen and (max-width: 767px) {
+  .p-single .p-logo.tosi-logo {
+    max-height: 42px;
+  }
+}
 .p-single:hover {
   background-color: #0d0f17;
 }
