@@ -972,8 +972,8 @@ h6 a {
   text-decoration: none;
   border: 0;
   text-align: center;
-  background-color: #ed9a3f;
-  color: #000;
+  background: linear-gradient(103.39deg, #7452bd 17.02%, #1a68ff 127.4%);
+  color: #fff;
   font-weight: 600;
   font-size: 15px;
   padding: 6px 30px;
@@ -982,7 +982,9 @@ h6 a {
   transition: all 0.2s ease-in;
 }
 .cta .btn-contact:hover {
-  background-color: #cf802c;
+  -webkit-box-shadow: 0 3px 20px 0px rgba(95, 167, 250, 0.42);
+          box-shadow: 0 3px 20px 0px rgba(95, 167, 250, 0.42);
+  color: #fff;
 }
 @media only screen and (max-width: 482px) {
   .cta .btn-contact {
