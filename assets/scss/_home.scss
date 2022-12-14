@@ -121,6 +121,12 @@
 				max-height: 42px;
 			}
 		}
+    &.saib-logo{
+      max-height: 50px;
+      @media only screen and (max-width: 767px) {
+       max-height: 40px;
+      }
+    }
 	}
 
 	transition: all 0.2s ease-in;

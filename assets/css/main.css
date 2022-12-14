@@ -906,6 +906,14 @@ h6 a {
     max-height: 42px;
   }
 }
+.p-single .p-logo.saib-logo {
+  max-height: 50px;
+}
+@media only screen and (max-width: 767px) {
+  .p-single .p-logo.saib-logo {
+    max-height: 40px;
+  }
+}
 .p-single:hover {
   background-color: #0d0f17;
 }
