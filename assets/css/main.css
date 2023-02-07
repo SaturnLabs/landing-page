@@ -761,9 +761,9 @@ h6 a {
 }
 @media only screen and (max-width: 767px) {
   .services {
+    padding: 50px 0px;
     padding-left: 10px;
     padding-right: 10px;
-    padding: 50px 0px;
   }
 }
 .services .container {
