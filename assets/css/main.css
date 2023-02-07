@@ -870,6 +870,8 @@ h6 a {
   .partners {
     padding-top: 70px;
     padding-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 .partners .container {
