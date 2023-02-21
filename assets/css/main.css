@@ -917,6 +917,14 @@ h6 a {
     height: 55px;
   }
 }
+.p-single .p-logo.proof-logo {
+  height: 42px;
+}
+@media only screen and (max-width: 767px) {
+  .p-single .p-logo.proof-logo {
+    height: 36px;
+  }
+}
 .p-single:hover {
   background-color: #0d0f17;
 }
